@@ -8,6 +8,27 @@ nav_order: 2
 # Mikroservis Nedir?
 
  Tek başına, tek sorumluluğu olan ve tek iş yapan sadece o işe ait işleri yürüten modüler projelerdir.Monolitik mimariler başlığında belirtilen sorunlardan kurtulmanın bir yolu mikroservis mimarisine geçmektir. Mikroservis, tanımı gereği küçük,geliştirilmesi ortalama iki üç hafta süren, bağımsız (otonom), diğer mikroservislerle sıkı sıkıya bağımlılığı bulunmayan, tek başına çalışan, kendine ait veritabanı olan, geliştirme sürecinden kuruluma kadar bağımsız olan,yatayda ve dikeyde kendi başına ölçeklenebilen uygulamalardır.
+ 
+* Mikroservis mimarisi, bir uygulamayı küçük, bağımsız ve gevşek bağlı servislerin bir koleksiyonu olarak yapılandıran bir yazılım geliştirme yaklaşımıdır.
+* Her mikroservis belirli bir işlevselliğe odaklanır ve diğer mikroservislerden bağımsız olarak geliştirilebilir, dağıtılabilir ve ölçeklendirilebilir.
+* Mikroservisler, REST gibi hafifletilmiş protokoller veya RabbitMQ veya Kafka gibi mesajlaşma sistemleri kullanarak birbirleriyle iletişim kurar.
+* Her mikroservis, diğer mikroservislerle iletişim kurabildiği sürece farklı bir teknoloji yığını veya programlama dili kullanabilir.
+* Mikroservis mimarisi, monolitik mimarilere kıyasla uygulamaların daha hızlı geliştirilmesine, dağıtılmasına ve ölçeklendirilmesine olanak tanır.
+* Mikroservisler, hataları bireysel hizmetlere izole ederek ve zarif bir bozulma sağlayarak uygulamaların güvenilirliğini ve hata tolere edebilirliğini artırabilir.
+* Mikroservislerin test edilmesi, entegrasyon testi gerektiği için monolitik uygulamaların test edilmesinden daha karmaşık olabilir.
+* Mikroservisler, Docker ve Kubernetes gibi araçlarla konteynerleştirme gibi güçlü ve ölçeklenebilir bir altyapıya ihtiyaç duyar.
+* Mikroservislerin izlenmesi ve gözlemlenebilirliği, sorunları ve performans darboğazlarını tespit etmek için kritik öneme sahiptir.
+* API'lerin kullanımı, mikroservis mimarisi için hizmetler arasındaki iletişimi kolaylaştırmak için hayati önem taşır.
+* Mikroservisler, birden fazla hizmet ve altyapıyı yönetme karmaşıklığı nedeniyle geliştirme maliyetlerini artırabilir.
+* Mikroservisler, hizmetler arasındaki sınırları ve arabirimleri doğru şekilde tanımlamak için tasarım aşamasında dikkatli bir şekilde düşünülmesini gerektirir.
+* Mikroservisler, özellikle kimlik doğrulama ve yetkilendirme gibi alanlarda güvenlik konusunda dikkatli bir şekilde düşünülmesi gerektirir.
+* Mikroservisler, birden fazla takım ve işlevsellikle karmaşık uygulamalarda özellikle faydalıdır.
+* Mikroservisler, farklı bileşenler arasındaki sıkı bağlılıklar nedeniyle eski sistemlerde uygulanması zor olabilir.
+* Mikroservisler, küçük, izole edilmiş servislerin hızlıca geliştirilip dağıtılabilmesi sayesinde daha hızlı deneyimleme ve yenilik yapma imkanı sunabilir.
+* Mikroservisler, her bir servisin bağımsız olarak güncellenebilmesi nedeniyle, monolitik mimarilere göre daha kolay bakım ve güncelleme sağlayabilir.
+* Mikroservisler, talebe göre her bir servisin ayrı ayrı ölçeklendirilmesine olanak tanıyarak ölçeklenebilirliği artırabilir.
+* Mikroservisler, her bir servis için farklı teknoloji yığını ve programlama dili seçeneği sunarak daha fazla esneklik sağlayabilir.
+* Mikroservisler, başarılı bir şekilde uygulanması ve işletilmesi için güçlü bir DevOps kültürü ve çevik geliştirme uygulamaları gerektirir.
 
 ## Ölçeklenebilirlik
 
