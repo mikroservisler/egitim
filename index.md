@@ -27,37 +27,37 @@ nav_order: 0
 
 ## 4.Mikroservislerde Veri yönetimi
 
-* [Database per service](docs/01-temel-kavramlar/docker.html)
-* [Shared Database per Service](docs/01-temel-kavramlar/docker.html)
-* [Referans veri yönetimi](docs/01-temel-kavramlar/docker.html)
+* [Database per service](docs/#)
+* [Shared Database per Service](docs/#)
+* [Referans veri yönetimi](docs/#)
 
 ## 5.Mikroservis İzleme
 
-* [Health Check](docs/01-temel-kavramlar/docker.html)
-* [Log Aggregation](docs/01-temel-kavramlar/docker.html)
-* [Distrubuted Tracing](docs/01-temel-kavramlar/docker.html)
+* [Health Check](docs/#)
+* [Log Aggregation](docs/#)
+* [Distrubuted Tracing](docs/#)
 
 ## 6. Mikroservis Güvenlik
 
-* [Oauth2 Protokolleri](docs/01-temel-kavramlar/docker.html)
-* [Session yönetimi](docs/01-temel-kavramlar/docker.html)
+* [Oauth2 Protokolleri](docs/#)
+* [Session yönetimi](docs/#)
 
 ## 7. Mikroservisler Test süreci
 
-* [Tüketici odaklı sözleşme testi(Consumer-driven contract test)](docs/01-temel-kavramlar/docker.html)
-* [Tüketici tarafı sözleşme testi(Consumer-side contract test)](docs/01-temel-kavramlar/docker.html)
+* [Tüketici odaklı sözleşme testi(Consumer-driven contract test)](docs/#)
+* [Tüketici tarafı sözleşme testi(Consumer-side contract test)](docs/#)
 
 ## 8. Mikroservis kullanılan tasarımlar
 
-* [Saga (Orchestration-Caleography)](docs/01-temel-kavramlar/docker.html)
-* [CQRS (Command Query Responsibility Segregation)](docs/01-temel-kavramlar/docker.html)
+* [Saga (Orchestration-Caleography)](docs/#)
+* [CQRS (Command Query Responsibility Segregation)](docs/#)
 
 ## 9. Demo Proje
 
-* [Saga pattern ile ilgili Spring Boot projesi](docs/01-temel-kavramlar/docker.html)
+* [Saga pattern ile ilgili Spring Boot projesi](docs/#)
 
 ## 10. Günümüzde Mikroservis yapıları
 
-* [Yazılım Dilleri](docs/01-temel-kavramlar/docker.html)
-* [Kullanılan diğer araçlar](docs/01-temel-kavramlar/docker.html)
-* [Tasarım Örnekleri](docs/01-temel-kavramlar/docker.html)
+* [Yazılım Dilleri](docs/#)
+* [Kullanılan diğer araçlar](docs/#)
+* [Tasarım Örnekleri](docs/#)
